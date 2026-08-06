@@ -1,6 +1,6 @@
 {
-  "is_ads_enabled": true,
-  "show_on_first_open": true,
+  "is_ads_enabled": false,
+  "show_on_first_open": false,
   "skip_duration_seconds": 10,
   "trigger_strategy": "after_seconds",
   "trigger_clicks_count": 10000,
@@ -10,7 +10,7 @@
       "schedule_end": "23:59",
       "weight": 50,
       "campaign_id": "cuKYMM6FS4SFw256BJUg",
-      "is_active": true,
+      "is_active": false,
       "open_target_in": "external",
       "schedule_start": "00:00",
       "title": "gambar",
