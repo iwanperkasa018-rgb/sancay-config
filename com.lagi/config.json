@@ -33,8 +33,8 @@
       "meta_client_token": ""
     },
     "tiktok": {
-      "is_active": false,
-      "android_id": "",
+      "is_active": true,
+      "android_id": "com.lagi",
       "android_tiktok_id": "",
       "apple_id": "",
       "apple_tiktok_id": "",
