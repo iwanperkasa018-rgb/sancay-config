@@ -7,12 +7,12 @@
   "trigger_seconds_delay": 259200,
   "active_campaigns": [
     {
-      "campaign_id": "cuKYMM6FS4SFw256BJUg",
-      "schedule_start": "00:00",
-      "open_target_in": "external",
-      "is_active": true,
       "schedule_end": "23:59",
       "weight": 50,
+      "campaign_id": "cuKYMM6FS4SFw256BJUg",
+      "is_active": true,
+      "open_target_in": "external",
+      "schedule_start": "00:00",
       "title": "gambar",
       "ad_type": "image",
       "media_url": "https://developers.google.com/static/admob/images/ios-testad-0-admob.png?hl=id",
@@ -20,6 +20,7 @@
       "button_text": "Daftar Sekarang"
     }
   ],
+  "title": "Mahjong kinetic",
   "icon_url": "https://cdn.phototourl.com/free/2026-08-06-c8133c98-d5bd-4116-a962-145973db58cb.png",
   "event_sdk": {
     "google": {
@@ -40,6 +41,5 @@
       "apple_tiktok_id": "",
       "stage": "sandbox"
     }
-  },
-  "title": "Mahjong kinetic"
+  }
 }
