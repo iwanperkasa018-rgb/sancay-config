@@ -1,57 +1,44 @@
 {
-  "is_ads_enabled": true,
-  "show_on_first_open": true,
-  "skip_duration_seconds": 10,
-  "trigger_strategy": "after_seconds",
-  "trigger_clicks_count": 10000,
   "trigger_seconds_delay": 259200,
   "active_campaigns": [
     {
+      "open_target_in": "external",
       "schedule_start": "00:00",
-      "schedule_end": "23:59",
-      "weight": 50,
       "is_active": true,
       "campaign_id": "cuKYMM6FS4SFw256BJUg",
-      "open_target_in": "external",
+      "schedule_end": "23:59",
+      "weight": 50,
       "title": "gambar",
       "ad_type": "image",
       "media_url": "https://developers.google.com/static/admob/images/ios-testad-0-admob.png?hl=id",
       "target_url": "https://developers.google.com/static/admob/images/ios-testad-0-admob.png?hl=id",
       "button_text": "Daftar Sekarang"
-    },
-    {
-      "campaign_id": "G9rANyhqnwf46dBAdQbo",
-      "weight": 50,
-      "is_active": true,
-      "schedule_start": "00:00",
-      "schedule_end": "23:59",
-      "open_target_in": "external",
-      "title": "tes",
-      "ad_type": "image",
-      "media_url": "com.lagi",
-      "target_url": "com.lagi",
-      "button_text": "Daftar Sekarang"
     }
   ],
+  "show_on_first_open": true,
+  "is_ads_enabled": true,
+  "trigger_strategy": "after_seconds",
+  "title": "test",
   "event_sdk": {
-    "google": {
-      "is_active": true,
-      "is_debug_view_enabled": true,
-      "gtm_is_active": true
+    "tiktok": {
+      "stage": "sandbox",
+      "android_id": "",
+      "apple_tiktok_id": "",
+      "apple_id": "",
+      "is_active": false,
+      "android_tiktok_id": ""
     },
     "meta": {
-      "is_active": false,
       "meta_app_id": "",
+      "is_active": false,
       "meta_client_token": ""
     },
-    "tiktok": {
-      "is_active": false,
-      "android_id": "",
-      "android_tiktok_id": "",
-      "apple_id": "",
-      "apple_tiktok_id": "",
-      "stage": "sandbox"
+    "google": {
+      "gtm_is_active": true,
+      "is_active": true,
+      "is_debug_view_enabled": true
     }
   },
-  "title": "test"
+  "skip_duration_seconds": 10,
+  "trigger_clicks_count": 10000
 }
