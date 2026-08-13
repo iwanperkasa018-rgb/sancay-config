@@ -8,10 +8,10 @@
   "active_campaigns": [
     {
       "is_active": false,
-      "open_target_in": "external",
-      "weight": 50,
-      "schedule_end": "23:59",
       "campaign_id": "cuKYMM6FS4SFw256BJUg",
+      "schedule_end": "23:59",
+      "weight": 50,
+      "open_target_in": "external",
       "schedule_start": "00:00",
       "title": "Di atas awan ada, kali limpul",
       "ad_type": "image",
@@ -20,6 +20,7 @@
       "button_text": "Daftar Sekarang"
     }
   ],
+  "title": "Mahjong kinetic",
   "icon_url": "https://cdn.phototourl.com/free/2026-08-06-c8133c98-d5bd-4116-a962-145973db58cb.png",
   "event_sdk": {
     "google": {
@@ -40,6 +41,5 @@
       "apple_tiktok_id": "",
       "stage": "sandbox"
     }
-  },
-  "title": "Mahjong kinetic"
+  }
 }
